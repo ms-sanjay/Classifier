@@ -157,7 +157,7 @@ function Analysis() {
         formData.append('patient_name', patientName);
       }
 
-      const response = await axios.post('http://localhost:5000/upload', formData, {
+      const response = await axios.post('https://python-iikc.onrender.com/upload', formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
         onUploadProgress: (progressEvent) => {
           if (progressEvent.total) {
@@ -186,7 +186,7 @@ function Analysis() {
           typeof imgUrl === 'string' &&
           (imgUrl.startsWith('/') || imgUrl.startsWith('http'))
         ) {
-          return `http://localhost:5000${imgUrl}`;
+          return `https://python-iikc.onrender.com/${imgUrl}`;
         }
         return null;
       };
