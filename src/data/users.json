@@ -1,0 +1,30 @@
+{
+  "doctors": [
+    {
+      "id": "doc1",
+      "username": "Doctor",
+      "password": "Doctor123",
+      "name": "Doctor"
+    },
+    {
+      "id": "doc2",
+      "username": "Doctor1",
+      "password": "Doctor123",
+      "name": "Doctor"
+    }
+  ],
+  "patients": [
+    {
+      "id": "pat1",
+      "username": "patient1",
+      "password": "patient123",
+      "name": "Patient1"
+    },
+    {
+      "id": "pat2",
+      "username": "patient2",
+      "password": "patient456",
+      "name": "Patient2"
+    }
+  ]
+}
